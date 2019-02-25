@@ -24,6 +24,7 @@ Date,Counter Party,Reference,Type,Amount (GBP),Balance (GBP)
 Then run
 
 ```./s2k.py sample.csv```
+
 This will generate a Kashflow version of the file with the prefix kash-
 
 ```$ cat kash-sample.csv
