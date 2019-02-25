@@ -33,3 +33,5 @@ MoneyIn,MoneyOut,Date,Description,Reference
 03/04/2018,1250.50,,INVOICE 12345,CHAPS
 03/04/2018,,-500.20,BILL 54312,CHAPS
 ```
+
+You can then upload that file into Kashflow. Working so far for me. 
