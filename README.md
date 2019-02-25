@@ -4,7 +4,7 @@ Converts Starling bank csv files into something that Kashflow can import
 Convert Starling Bank CSV format to be imported by Kashflow
 
 Motivation
-I recently signed up to the Starling Bank Business account. Kashflow does not natively connect to Starling which is a huge bummer. Despite a writing campaign to Kashflow and Starling they continue to ignore the problem. I found this https://github.com/mafonso/starling2freeagent and adjusted it to work for Kashflow. Thanks mafonso for setting me down the right path.
+I recently signed up to the Starling Bank Business account. Kashflow does not natively connect to Starling which is a huge bummer. Despite a writing campaign to Kashflow and Starling they continue to ignore the problem. I found this https://github.com/mafonso/starling2freeagent and adjusted it to work for Kashflow. Thanks mafonso for sending me down the right path.
 
 Kashflow docs on csv import are here: https://www.kashflow.com/support/kb/bankfeeds-csv
 
