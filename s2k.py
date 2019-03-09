@@ -13,9 +13,10 @@ def convertCSV(filename):
         wtr.writerow(['MoneyIn', 'MoneyOut', 'Date', 'Description', 'Reference']) # write header
         for row in rdr:
         	test = 0
-        	test = test + int(float(row[4]))
+        	test = test + (float(row[4]))
         	if test < 0 : 
-        		wtr.writerow(['',row[4],row[0],row[1],row[2]])
+        		test = -test
+        		wtr.writerow(['',round(test,2),row[0],row[1],row[2]])
         	else:
         		wtr.writerow([row[4],'',row[0],row[1],row[2]])
 
