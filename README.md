@@ -31,7 +31,7 @@ This will generate a Kashflow version of the file with the prefix kash-
 MoneyIn,MoneyOut,Date,Description,Reference
 31/03/2018,0.02,,March Interest Earned,INTEREST PAYMENT
 03/04/2018,1250.50,,INVOICE 12345,CHAPS
-03/04/2018,,-500.20,BILL 54312,CHAPS
+03/04/2018,,500.20,BILL 54312,CHAPS
 ```
 
 You can then upload that file into Kashflow. Working so far for me. 
