@@ -9,7 +9,7 @@ def convertCSV(filename):
         rdr = csv.reader(source)
         wtr = csv.writer(result, delimiter=',', )
         next(rdr)  # Skip CSV headers
-        next(rdr)  # Skip "Opening balance."
+        #  next(rdr) Skip "Opening balance."
         wtr.writerow(['MoneyIn', 'MoneyOut', 'Date', 'Description', 'Reference']) # write header
         for row in rdr:
         	test = 0
